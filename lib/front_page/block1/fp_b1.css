@@ -1,0 +1,55 @@
+:host {
+    display: block;
+    height: 100%;
+    /*background-color: white;*/
+    background-image: url(Resources/images/front_page/bg/1.jpg);
+}
+
+div.table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+div.cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.text {
+    text-shadow: 0 0 10px black;
+}
+
+div.button {
+    display: inline-block;
+    width: 315px;
+    height: 60px;
+    font-size: 16pt;
+    border-radius: 4px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: 50ms;
+}
+
+div.button.b1 {
+    background-color: #4BAFCD;
+}
+
+div.button.b1:hover {
+    background-color: #40A2BF;
+}
+
+div.button.b2 {
+    background-color: #EFA900;
+    margin-left: 40px;
+}
+
+div.button.b2:hover {
+    background-color: #E09E00;
+}
+

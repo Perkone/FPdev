@@ -1,9 +1,7 @@
 :host {
-    display: block;
     height: 100%;
-    padding-top: 70px;
-    position: absolute;
     width: 100%;
+    position: relative;
     box-sizing: border-box;
     top: 0;
     text-align: center;

@@ -21,4 +21,9 @@ class Block1 {
     (event.currentTarget as Element).attributes.remove('style');
   }
 
+  onSwitch(Event evt) {
+    String location = (evt.currentTarget as Element).attributes['location'];
+    window.location.assign("${window.location.origin}/${location}");
+  }
+
 }

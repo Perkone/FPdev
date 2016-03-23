@@ -1,7 +1,7 @@
 import 'package:angular2/bootstrap.dart';
 
-import 'package:FPdev/front_page/front_page.dart';
+import 'package:semplex_client_ext1/components/about/about.dart';
 
 main() {
-  bootstrap(FrontPage);
+  bootstrap(About);
 }

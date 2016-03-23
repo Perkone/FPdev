@@ -1,15 +1,15 @@
-library semplex.client.front_page.block1;
+library semplex.client.ext1.components.button1.button1;
 
 import 'package:angular2/angular2.dart';
 import 'dart:html';
 
 @Component(
-    selector: 'block1',
-    templateUrl: 'fp_b1.html',
-    styleUrls: const['fp_b1.css'],
+    selector: 'button1-cpt',
+    templateUrl: 'button1.html',
+    styleUrls: const['button1.css'],
     directives: const [CORE_DIRECTIVES, FORM_DIRECTIVES]
 )
-class Block1 {
+class Button1 {
 
   bMousedown(Event event, String color) {
     (event.currentTarget as Element).attributes.addAll({

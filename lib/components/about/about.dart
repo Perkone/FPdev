@@ -6,7 +6,7 @@ import 'block1/block1.dart';
 import 'block2/block2.dart';
 
 @Component(
-    selector: 'about-cpt',
+    selector: 'about-cmp',
     templateUrl: 'about.html',
     styleUrls: const['about.css'],
     directives: const [CORE_DIRECTIVES, FORM_DIRECTIVES, Block1, Block2]

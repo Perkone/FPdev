@@ -4,7 +4,7 @@ import 'package:angular2/angular2.dart';
 //import 'dart:html';
 
 @Component(
-    selector: 'block2-cpt',
+    selector: 'block2-cmp',
     templateUrl: 'block2.html',
     styleUrls: const['block2.css'],
     directives: const [CORE_DIRECTIVES, FORM_DIRECTIVES]

@@ -1,0 +1,11 @@
+div.centeringDoubleDiv {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+div.centeringDoubleDiv > div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}

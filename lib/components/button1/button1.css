@@ -1,10 +1,9 @@
 :host {
-    display: inline-block;
+    display: block;
     width: 315px;
     height: 60px;
     font-size: 16pt;
     border-radius: 4px;
-    box-shadow: 0 0 10px black;
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -12,15 +11,6 @@
     -ms-user-select: none;
     user-select: none;
     transition: 50ms;
-}
-
-div.table {
-    display: table;
-    height: 100%;
-    width: 100%;
-}
-
-div.cell {
-    display: table-cell;
-    vertical-align: middle;
+    background-color: darkgrey;
+    box-shadow: 0 0 10px black;
 }

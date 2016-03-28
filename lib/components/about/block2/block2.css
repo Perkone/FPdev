@@ -1,5 +1,138 @@
 :host {
     display: block;
     height: 100%;
-    background-color: darkslategray;
+    color: black;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+div#left-img {
+    height: 100%;
+    width: 34%;
+    background-image: url(Resources/images/about/bg/2.jpg);
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+div#top-segment {
+    position: relative;
+    top: -100%;
+    height: 40%;
+    margin-left: 34%;
+    text-align: left;
+    padding: 40px 70px;
+    box-sizing: border-box;
+}
+
+div#bottom-segment {
+    position: relative;
+    top: -100%;
+    height: 60%;
+}
+
+div#right-img {
+    position: relative;
+    top: -100%;
+    left: 80%;
+    height: 100%;
+    width: 20%;
+    background-image: url(Resources/images/about/bg/3.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+div#top-segment>div.header, div#top-segment>div.text {
+    height: 100%;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+
+div#top-segment>div.text, div#top-segment>div.text+div {
+    position: relative;
+    top: -100%;
+}
+
+div#top-segment>div.header {
+    width: 650px;
+    overflow: hidden;
+}
+
+div#top-segment>div.text {
+    padding-top: 60px;
+}
+
+div#top-segment button1-cmp {
+    position: relative;
+    top: -60px;
+}
+
+.header {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: normal;
+}
+
+.text {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+div#scheme {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 20%;
+    background-color: black;
+    background-clip: content-box;
+    color: #ffffff;
+    text-align: center;
+}
+
+div#scheme>div {
+    height: 100%;
+    box-sizing: border-box;
+
+}
+
+div#scheme-img {
+    background-image: url(Resources/images/about/scheme.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 40%;
+}
+
+div#scheme>div.header, div#scheme>div.text {
+    position: relative;
+    padding: 40px;
+    padding-bottom: 25px;
+}
+
+div#scheme>div.header {
+    top: -100%;
+}
+
+div#scheme>div.text {
+    top: -200%;
+    font-size: 20px;
+}
+
+@media all and (max-width: 1300px) {
+    div#top-segment>div.text {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+@media all and (min-width: 1600px) {
+    div#top-segment>div.text {
+        font-size: 30px;
+    }
+}
+
+@media all and (max-height: 800px) {
+    div#top-segment>div.text {
+        font-size: 20px;
+        line-height: 25px;
+    }
 }

@@ -5,9 +5,9 @@ String RGBColorBrightness(String CSSColorHex, [int brightness = 100]) {
   int green = int.parse(CSSColorHex.substring(3, 5), radix: 16);
   int blue = int.parse(CSSColorHex.substring(5, 7), radix: 16);
 
-  red = (red * brightness / 100).toInt();
-  green = (green * brightness / 100).toInt();
-  blue = (blue * brightness / 100).toInt();
+  red = (brightness / 100 * red).toInt();
+  green = (brightness / 100 * green).toInt();
+  blue = (brightness / 100 * blue).toInt();
 
   String redStr = red.toRadixString(16);
   if (redStr.length == 1)

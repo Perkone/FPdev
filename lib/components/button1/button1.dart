@@ -50,7 +50,6 @@ class Button1 {
 
     _shadowOn = false;
     _currentColor = _pushColor;
-    var s;
   }
 
   @HostListener('mouseup', const['\$event'])

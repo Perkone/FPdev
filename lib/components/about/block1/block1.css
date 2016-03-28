@@ -2,11 +2,12 @@
     display: block;
     height: 100%;
     background-image: url(Resources/images/about/bg/1.jpg);
+    font-size: 70px;
 }
 
 div.text {
-    text-shadow: 0 0 10px black;
-    margin-bottom: 120px;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 100px;
 }
 
 button1-cmp {

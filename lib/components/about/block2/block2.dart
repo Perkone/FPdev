@@ -18,6 +18,4 @@ class Block2 {
     String location = (evt.currentTarget as Element).attributes['location'];
     window.location.assign("${window.location.origin}/${location}");
   }
-
-  jhjh() {}
 }

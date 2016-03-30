@@ -1,7 +1,11 @@
-<div id="general">
-<!-- (wheel)="onWheel($event)" (scroll)="onScroll($event)"> -->
-    <block1-cmp></block1-cmp>
-    <block2-cmp></block2-cmp>
+<div id="general" (wheel)="onWheel($event)">
 
-    <block4-cmp></block4-cmp>
+    <block1-cmp class="block"></block1-cmp>
+    <block2-cmp class="block"></block2-cmp>
+
+    <block4-cmp class="block"></block4-cmp>
+
+    <div id="scroll-bar">
+        <div id="toggle"></div>
+    </div>
 </div>

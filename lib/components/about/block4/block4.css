@@ -98,14 +98,15 @@ div.logo {
     width: 200px;
 }
 
-div.logo>div {
+div.logo>a {
     margin-top: 30px;
     height: 140px;
     cursor: pointer;
     border-radius: 20px;
+    display: block;
 }
 
-div.logo>div:hover {
+div.logo>a:hover {
     background-color: rgba(0, 0, 0, 0.15);
 }
 

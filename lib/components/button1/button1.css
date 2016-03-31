@@ -10,9 +10,29 @@
     -khtml-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    transition: 50msqwe;
+    transition: 50ms;
     background-color: darkgrey;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
     color: white;
     text-align: center;
+}
+
+#hover-layer, #click-layer {
+    position: relative;
+    height: 100%;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.0);
+    transition: 50ms;
+}
+
+#hover-layer {
+    top: -200%;
+}
+
+#click-layer {
+    top: -100%;
+}
+
+#hover-layer:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }

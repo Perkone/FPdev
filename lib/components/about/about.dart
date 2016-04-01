@@ -5,7 +5,9 @@ import 'package:angular2/angular2.dart';
 
 import 'block1/block1.dart';
 import 'block2/block2.dart';
+import 'block3/block3.dart';
 import 'block4/block4.dart';
+import 'block6/block6.dart';
 
 @Component(
     selector: 'about-cmp',
@@ -16,7 +18,9 @@ import 'block4/block4.dart';
       FORM_DIRECTIVES,
       Block1,
       Block2,
-      Block4
+      Block3,
+      Block4,
+      Block6
     ])
 class About
  // implements OnInit

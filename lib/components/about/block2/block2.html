@@ -1,20 +1,12 @@
-<div id="left-img"></div>
 <div id="top-segment">
     <div class="header">ЧТО ТАКОЕ SEMANTIC PLEX</div>
-    <div class="centeringDoubleDiv text">
-        <div>Это уникальный сервис, который предлагает самый безрисковый способ инвестиций, альтернатив которому в России нет на сегодняшний день.</div>
-    </div>
-    <div>
-        <button1-cmp color="#4BAFCD" location="#private" (click)="onSwitch($event)">ЗАРЕГИСТРИРОВАТЬСЯ</button1-cmp>
-    </div>
+    <div class="text">Это уникальный сервис, который предлагает самый безрисковый способ инвестиций, альтернатив которому в России нет на сегодняшний день.</div>
+    <button1-cmp color="#4BAFCD" location="#private" (click)="onSwitch($event)">ЗАРЕГИСТРИРОВАТЬСЯ</button1-cmp>
 </div>
 <div id="bottom-segment">
-    <div id="scheme">
-        <div id="scheme-img"></div>
-        <div class="header">СХЕМА ВЗАИМОДЕЙСТВИЯ</div>
-        <div class="text centeringDoubleDiv">
-            <div style="vertical-align: bottom;">Semantic Plex - это ваш проводник в мир стабильного дохода</div>
-        </div>
-    </div>
-    <div id="right-img"></div>
+    <div class="header">СХЕМА ВЗАИМОДЕЙСТВИЯ</div>
+    <img id="scheme" src="Resources/images/about/scheme.jpg" width="100%">
+    <div class="text">Semantic Plex - это ваш проводник в мир стабильного дохода</div>
+    <div id="right-img" [ngStyle]="{'height': bsh, 'width': bsw}"></div>
 </div>
+<div id="bg" [ngStyle]="{'height': hostHeight}"></div>

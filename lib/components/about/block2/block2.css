@@ -1,70 +1,53 @@
 :host {
     display: block;
-    height: 100%;
     color: black;
-    background-repeat: no-repeat;
     background-color: #f0f0f0;
-    overflow: hidden;
+    position: relative;
 }
 
-div#left-img {
-    height: 100%;
+div#bg {
+    height: 10px;
     width: 34%;
     background-image: url(Resources/images/about/bg/2.jpg);
     background-size: cover;
     background-position: 50% 30%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
 }
 
 div#top-segment {
-    position: relative;
-    top: -100%;
-    height: 40%;
     margin-left: 34%;
     text-align: left;
     padding: 40px 70px;
     box-sizing: border-box;
 }
 
-div#bottom-segment {
-    position: relative;
-    top: -100%;
-    height: 60%;
+div#top-segment>div.text, div#top-segment>button1-cmp {
+    margin-top: 30px;
 }
 
-div#right-img {
+div#bottom-segment {
     position: relative;
-    top: -100%;
-    left: 80%;
-    height: 100%;
-    width: 20%;
+    z-index: 2;
+    margin: 0 20%;
+    padding: 40px;
+    background-color: black;
+}
+
+div#bottom-segment>div.header, div#bottom-segment>div.text {
+    color: white;
+}
+
+div#bottom-segment>div#right-img {
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    height: 20px;
+    width: 20px;
     background-image: url(Resources/images/about/bg/3.jpg);
     background-size: cover;
     background-position: 50% 0;
-}
-
-div#top-segment>div.header, div#top-segment>div.text {
-    height: 100%;
-    padding-bottom: 60px;
-    box-sizing: border-box;
-}
-
-div#top-segment>div.text, div#top-segment>div.text+div {
-    position: relative;
-    top: -100%;
-}
-
-div#top-segment>div.header {
-    width: 650px;
-    overflow: hidden;
-}
-
-div#top-segment>div.text {
-    padding-top: 60px;
-}
-
-div#top-segment button1-cmp {
-    position: relative;
-    top: -60px;
 }
 
 .header {
@@ -77,62 +60,4 @@ div#top-segment button1-cmp {
     font-weight: 300;
     font-size: 26px;
     line-height: 40px;
-}
-
-div#scheme {
-    height: 100%;
-    box-sizing: border-box;
-    padding: 0 20%;
-    background-color: black;
-    background-clip: content-box;
-    color: #ffffff;
-    text-align: center;
-}
-
-div#scheme>div {
-    height: 100%;
-    box-sizing: border-box;
-
-}
-
-div#scheme-img {
-    background-image: url(Resources/images/about/scheme.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50% 40%;
-}
-
-div#scheme>div.header, div#scheme>div.text {
-    position: relative;
-    padding: 40px;
-    padding-bottom: 25px;
-}
-
-div#scheme>div.header {
-    top: -100%;
-}
-
-div#scheme>div.text {
-    top: -200%;
-    font-size: 20px;
-}
-
-@media all and (max-width: 1300px) {
-    div#top-segment>div.text {
-        font-size: 20px;
-        line-height: 25px;
-    }
-}
-
-@media all and (min-width: 1600px) {
-    div#top-segment>div.text {
-        font-size: 30px;
-    }
-}
-
-@media all and (max-height: 800px) {
-    div#top-segment>div.text {
-        font-size: 20px;
-        line-height: 25px;
-    }
 }

@@ -126,25 +126,3 @@ div.triangle-down {
     border-right: 25px solid transparent;
     border-top: 25px solid #f0f0f0;
 }
-
-@media all and (max-width: 1500px) {
-    div#top-segment div.text {
-        font-size: 20px;
-        line-height: 28px;
-    }
-    div#bottom-segment div.text {
-        font-size: 18px;
-        line-height: 20px;
-    }
-}
-
-@media all and (max-height: 900px) {
-    div#top-segment div.text {
-        font-size: 20px;
-        line-height: 28px;
-    }
-    div#bottom-segment div.text {
-        font-size: 18px;
-        line-height: 20px;
-    }
-}

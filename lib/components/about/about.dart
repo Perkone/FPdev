@@ -7,6 +7,7 @@ import 'block1/block1.dart';
 import 'block2/block2.dart';
 import 'block3/block3.dart';
 import 'block4/block4.dart';
+import 'block5/block5.dart';
 import 'block6/block6.dart';
 
 @Component(
@@ -20,11 +21,23 @@ import 'block6/block6.dart';
       Block2,
       Block3,
       Block4,
+      Block5,
       Block6
     ])
 class About
  // implements OnInit
  {
+  // About() {}
+
+  // ngOnInit() {
+    // window.d.(width) = 23;
+    // window.resizeTo(500, 500);
+    //  _blocks = _generalElement.querySelectorAll('.block');
+    //  _numberOfBlocks = _blocks.length;
+    //  _toggle = _generalElement.querySelector('#toggle');
+    //  _toggleHeight = _generalElement.clientHeight ~/ _numberOfBlocks;
+    //  _toggle.style.height = '${_toggleHeight}px';
+  // }
   // ElementRef _elementRef;
   // Element get _generalElement =>
   //     (_elementRef.nativeElement as Element).children[0];
@@ -41,13 +54,7 @@ class About
   //       _prevDelta = 0.0,
   //       _deltaLimit = 500 {}
   //
-  // ngOnInit() {
-  //   _blocks = _generalElement.querySelectorAll('.block');
-  //   _numberOfBlocks = _blocks.length;
-  //   _toggle = _generalElement.querySelector('#toggle');
-  //   _toggleHeight = _generalElement.clientHeight ~/ _numberOfBlocks;
-  //   _toggle.style.height = '${_toggleHeight}px';
-  // }
+  //
   //
   // onWheel(WheelEvent evt) {
   //   print(evt.deltaY);

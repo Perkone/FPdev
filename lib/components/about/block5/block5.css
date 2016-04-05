@@ -1,0 +1,53 @@
+    :host {
+        display: block;
+        height: 100%;
+        color: white;
+        background-image: url(Resources/images/about/bg/5.jpg);
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    div#head {
+        height: 120px;
+        font-size: 44px;
+        box-sizing: border-box;
+        padding-top: 40px;
+    }
+
+    div#icon {
+        display: inline-block;
+        height: 150px;
+        width: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(Resources/images/about/PS_logo.png);
+        background-position: center;
+        background-clip: border-box;
+        border-radius: 20px;
+    }
+
+    div#icon>a {
+        height: 100%;
+        width: 100%;
+        cursor: pointer;
+        border-radius: 20px;
+        display: block;
+    }
+
+    div#icon>a:hover {
+        background-color: rgba(0, 0, 0, 0.15);
+    }
+
+    div#text {
+        margin-top: 30px;
+        box-sizing: border-box;
+        padding: 0 100px;
+    }
+
+    div#text>div[t2]{
+      text-align: left;
+    }
+
+    div#text>div[t2]>a{
+      color: rgb(35, 182, 196);
+    }

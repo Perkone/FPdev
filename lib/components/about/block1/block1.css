@@ -2,7 +2,9 @@
     display: block;
     height: 100%;
     background-image: url(Resources/images/about/bg/1.jpg);
-    font-size: 70px;
+    font-size: 450%;
+    background-position: center;
+    background-size: cover;
 }
 
 div.text {

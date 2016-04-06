@@ -1,82 +1,72 @@
 :host {
     display: block;
-    height: 100%;
     color: black;
     background-color: #f0f0f0;
-    overflow: hidden;
 }
 
-div#header {
-    height: 120px;
+div#top-segment {
+    padding: 40px 10%;
+}
+
+div#top-segment div#header {
+    font-weight: 400;
     font-size: 44px;
-    box-sizing: border-box;
-    padding-top: 40px;
+    line-height: normal;
 }
 
-div#warranty {
-    height: 60%;
-    box-sizing: border-box;
-    padding: 120px 100px 50px;
-    position: relative;
-    top: -120px;
+div#top-segment div#warranty {
+    margin-top: 30px;
+    display: inline-block;
+    width: 100%;
 }
 
-div#warranty>div>div {
+div#top-segment div#warranty>div {
     width: 33.3%;
     float: left;
     box-sizing: border-box;
     padding: 0 20px;
 }
 
-div#warranty>div>div[c] {
+div#top-segment div#warranty>div[c] {
     width: 33.4%;
 }
 
-div#warranty>div>div>div[icon] {
-  display: inline-block;
-  width: 87px;
-  height: 71px;
-  background-size: contain;
-  background-repeat: no-repeat;
+div#top-segment div#warranty>div>div[icon] {
+    display: inline-block;
+    width: 87px;
+    height: 71px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-div#warranty>div>div[l]>div[icon] {
+div#top-segment div#warranty>div[l]>div[icon] {
     background-image: url(Resources/images/about/icon/3.png);
 }
 
-div#warranty>div>div[c]>div[icon] {
+div#top-segment div#warranty>div[c]>div[icon] {
     background-image: url(Resources/images/about/icon/2.png);
 }
 
-div#warranty>div>div[r]>div[icon] {
+div#top-segment div#warranty>div[r]>div[icon] {
     background-image: url(Resources/images/about/icon/1.png);
 }
 
-div#warranty>div>div>div[head]{
-  color: #52C1E1;
-  margin-top: 20px;
-  font-size: 22px;
-  font-weight: 400;
+div#top-segment div#warranty>div>div[head] {
+    color: #52C1E1;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 400;
 }
 
-div#warranty>div>div>div[text]{
-  margin-top: 20px;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-mini-block-cmp {
-    height: 40%;
-    box-sizing: border-box;
-    padding-bottom: 70px;
-    position: relative;
-    top: -120px;
+div#top-segment div#warranty>div>div[text] {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
 }
 
 div#footer {
     color: white;
-    position: relative;
-    top: -190px;
     height: 70px;
     background-color: black;
     font-size: 14px;

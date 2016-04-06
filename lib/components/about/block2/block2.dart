@@ -14,10 +14,7 @@ import 'package:semplex_client_ext1/components/button1/button1.dart';
       'package:semplex_client_ext1/components/style.css'
     ],
     directives: const [CORE_DIRECTIVES, FORM_DIRECTIVES, Button1])
-class Block2
-// implements OnInit
-// , AfterViewInit
-{
+class Block2 {
   ElementRef _hostRef;
   Element get _host => _hostRef.nativeElement;
   Element get _bottomSegment => _host.querySelector('div#bottom-segment');
@@ -26,14 +23,14 @@ class Block2
   String bsw;
 
   Block2(this._hostRef) {
-    new Future.delayed(new Duration(milliseconds: 500), () => pushStyle());
+    new Future.delayed(new Duration(seconds: 1), () => pushStyle());
     window.onResize.listen((param) => pushStyle());
   }
 
   pushStyle() {
     hostHeight = '${_host.offsetHeight}px';
     bsh = '${_bottomSegment.offsetHeight}px';
-    bsw = '${_host.offsetWidth*0.2}px';
+    bsw = '${(_host.offsetWidth-_bottomSegment.offsetWidth)/2}px';
   }
 
   onSwitch(Event evt) {

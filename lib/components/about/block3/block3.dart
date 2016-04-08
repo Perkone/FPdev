@@ -1,7 +1,6 @@
 library semplex.client.ext1.components.about.block3.block3;
 
 import 'package:angular2/angular2.dart';
-// import 'dart:html';
 
 @Component(
     selector: 'block3-cmp',

@@ -23,8 +23,7 @@ div#top-segment>div.text {
 }
 
 div#bottom-segment {
-    width: 100%;
-    display: inline-block;
+    display: table;
     color: white;
     font-size: 18px;
     font-weight: 300;
@@ -32,7 +31,7 @@ div#bottom-segment {
 }
 
 div#bottom-segment div#left-part, div#bottom-segment div#right-part {
-    float: left;
+    display: table-cell;
     width: 50%;
     text-align: center;
     box-sizing: border-box;

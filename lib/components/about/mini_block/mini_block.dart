@@ -8,10 +8,7 @@ import 'package:semplex_client_ext1/components/button1/button1.dart';
 @Component(
     selector: 'mini-block-cmp',
     templateUrl: 'mini_block.html',
-    styleUrls: const [
-      'mini_block.css',
-      'package:semplex_client_ext1/components/style.css'
-    ],
+    styleUrls: const ['mini_block.css'],
     directives: const [CORE_DIRECTIVES, FORM_DIRECTIVES, Button1])
 class MiniBlock {
   onSwitch(Event evt) {

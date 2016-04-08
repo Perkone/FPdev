@@ -23,7 +23,7 @@ class Block2 {
   String bsw;
 
   Block2(this._hostRef) {
-    new Future.delayed(new Duration(seconds: 1), () => pushStyle());
+    new Future.delayed(new Duration(seconds: 2), () => pushStyle());
     window.onResize.listen((param) => pushStyle());
   }
 

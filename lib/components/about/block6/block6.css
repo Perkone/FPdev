@@ -64,11 +64,3 @@ div#top-segment div#warranty>div>div[text] {
     font-weight: 300;
     line-height: 26px;
 }
-
-div#footer {
-    color: white;
-    height: 70px;
-    background-color: black;
-    font-size: 14px;
-    line-height: 20px;
-}
